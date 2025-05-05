@@ -4,8 +4,16 @@ const maConstante= 3.14;
 console.log(maVariable);
 console.log(maConstante);
 
-let number = 5
-console.log(number)
+let num = 5
+console.log(num)
 
- number = 9
+ num = 9
+ console.log(num)
+
+
+ let number = 2
  console.log(number)
+ {
+    let number = 8
+    console.log(number)
+ }
