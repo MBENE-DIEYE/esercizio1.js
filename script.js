@@ -44,3 +44,12 @@ let numero = 0;
 let word = prompt("esercizi");
 
 console.log(word.length);
+
+
+let parola="";
+do {
+    prompt("insirisci una palora")
+}
+while(parola.length<5);
+
+console.log(parola)
