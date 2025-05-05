@@ -41,4 +41,6 @@ let numero = 0;
     numero++;
  }
 
-let messaggio = prompt("esto faccendo i mie esercizi");
+let word = prompt("esercizi");
+
+console.log(word.length);
