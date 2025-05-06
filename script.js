@@ -48,7 +48,7 @@ console.log(word.length);
 
 let parola="";
 do {
-    prompt("insirisci una palora")
+   parola= prompt("insirisci una palora")
 }
 while(parola.length<5);
 
