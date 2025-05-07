@@ -146,3 +146,11 @@ let somme=0
    
  }
  outerFunction(2,7)
+
+  let student={
+    nome:"mbene",
+    age:"24",
+    grade:"ffef",
+    school:"frrcr"
+  }
+  console.log("chiave:"+Object.keys(student))
