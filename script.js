@@ -67,19 +67,39 @@ else{
 }
 
 
-let score= "45";
+let score= "";
 
- prompt(parseInt(score));
+score=parseInt( prompt("voici la note"));
 
- if(score>=90 && score<=100){
-    console.log("vuoto ottimo");
- }
- else if(score>=70 && score<=89){
-    console.log("vuoto buono");
- }
- else if(score>=60 && score<=69){
-    console.log("vuoto sufficiente");
- }
- else{
-    console.log("vuoto insufficiente");
+//  if(score>=90 && score<=100){
+//     console.log("vuoto ottimo");
+//  }
+//  else if(score>=70 && score<=89){
+//     console.log("vuoto buono");
+//  }
+//  else if(score>=60 && score<=69){
+//     console.log("vuoto sufficiente");
+//  }
+//  else{
+//     console.log("vuoto insufficiente");
+//  }
+
+
+ switch(score){
+    case 1: {
+        (score>=90 && score<=100)
+        console.log("vuoto ottimo");
+     }
+    break;
+    case 2:{
+        (score>=70 && score<=89)
+        console.log("vuoto buono");
+    }
+    break;
+    case 3: {
+        (score>=60 && score<=69)
+        console.log("vuoto sufficiente");
+     }
+    break;
+    default: console.log("vuoto insufficiente");    
  }
