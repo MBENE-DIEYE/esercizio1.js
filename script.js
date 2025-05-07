@@ -69,7 +69,7 @@ else{
 
 let score= "";
 
-score=parseInt( prompt("voici la note"));
+// score=parseInt( prompt("voici la note"));
 
 //  if(score>=90 && score<=100){
 //     console.log("vuoto ottimo");
@@ -103,3 +103,6 @@ score=parseInt( prompt("voici la note"));
     break;
     default: console.log("vuoto insufficiente");    
  }
+
+ let array =[1,2,3,4,5,6]
+ console.log(array)
