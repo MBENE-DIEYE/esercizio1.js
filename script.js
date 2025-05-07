@@ -154,3 +154,4 @@ let somme=0
     school:"frrcr"
   }
   console.log("chiave:"+Object.keys(student))
+  console.log("values:"+Object.values(student))
