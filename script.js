@@ -122,5 +122,7 @@ let somme=0
     age:24,
     city:"borgonovo"
  }
+ let age = 30
  console.log(person)
  console.log(person.age)
+ console.log(age)
