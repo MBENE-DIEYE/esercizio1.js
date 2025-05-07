@@ -132,3 +132,14 @@ let somme=0
  for(nome in person){
     console.log(person.nome)
  }
+
+ function outerFunction(x){
+    function innerFunction(y){
+        let som=x+y;
+        console.log(som)
+    }
+
+    innerFunction(4)
+   
+ }
+ outerFunction(2)
