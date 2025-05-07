@@ -65,3 +65,21 @@ if(number>5){
 else{
     console.log("la variabile è minore di 5");
 }
+
+
+let score= "45";
+
+ prompt(parseInt(score));
+
+ if(score>=90 && score<=100){
+    console.log("vuoto ottimo");
+ }
+ else if(score>=70 && score<=89){
+    console.log("vuoto buono");
+ }
+ else if(score>=60 && score<=69){
+    console.log("vuoto sufficiente");
+ }
+ else{
+    console.log("vuoto insufficiente");
+ }
