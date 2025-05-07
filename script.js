@@ -128,3 +128,7 @@ let somme=0
  console.log(person.age)
  console.log(age)
  console.log(person.job)
+
+ for(nome in person){
+    console.log(person.nome)
+ }
