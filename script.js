@@ -155,3 +155,4 @@ let somme=0
   }
   console.log("chiave:"+Object.keys(student))
   console.log("values:"+Object.values(student))
+  console.log("entries:"+Object.entries(student))
