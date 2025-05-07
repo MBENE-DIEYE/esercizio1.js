@@ -120,9 +120,11 @@ let somme=0
  const person={
     nome:"mbene",
     age:24,
-    city:"borgonovo"
+    city:"borgonovo",
+    job:"studiare"
  }
  let age = 30
  console.log(person)
  console.log(person.age)
  console.log(age)
+ console.log(person.job)
