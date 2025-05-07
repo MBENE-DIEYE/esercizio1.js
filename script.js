@@ -112,3 +112,7 @@ let somme=0
     somme= somme +array[i]
  }
  console.log(somme)
+
+ for(i=array.length-1 ;i>=0;i--){
+    console.log(array[i])
+ }
