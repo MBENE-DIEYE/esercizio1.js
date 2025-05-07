@@ -116,3 +116,10 @@ let somme=0
  for(i=array.length-1 ;i>=0;i--){
     console.log(array[i])
  }
+
+ const person={
+    nome:"mbene",
+    age:24,
+    city:"borgonovo"
+ }
+ console.log(person)
