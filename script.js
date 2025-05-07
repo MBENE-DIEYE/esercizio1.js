@@ -106,3 +106,9 @@ let score= "";
 
  let array =[1,2,3,4,5,6]
  console.log(array)
+let somme=0
+ for(i=0;i<=array.length;i++){
+
+    somme= somme +array[i]
+ }
+ console.log(somme)
