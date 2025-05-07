@@ -123,3 +123,4 @@ let somme=0
     city:"borgonovo"
  }
  console.log(person)
+ console.log(person.age)
