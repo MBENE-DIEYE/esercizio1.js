@@ -28,28 +28,30 @@
 //  }
 
   
- for(i=0;i<=20;i++){
-    if(i%2===0){
-        console.log(i);
-    }
- }
-let numero = 0;
- while(numero <= 10){
-    if(numero%2!==0){
+//  for(i=0;i<=20;i++){
+//     if(i%2===0){
+//         console.log(i);
+//     }
+//  }
+ 
+
+// let word = prompt("esercizi");
+
+// console.log(word.length);
+
+
+// let parola="";
+// do {
+//    parola= prompt("insirisci una palora")
+// }
+// while(parola.length<5);
+
+// console.log(parola)
+
+let numero =10;
+while(numero<=10 && numero>=1){
+    if((numero%2)!==0){
         console.log(numero);
     }
-    numero++;
- }
-
-let word = prompt("esercizi");
-
-console.log(word.length);
-
-
-let parola="";
-do {
-   parola= prompt("insirisci una palora")
+    numero--;
 }
-while(parola.length<5);
-
-console.log(parola)
