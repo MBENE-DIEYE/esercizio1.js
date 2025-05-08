@@ -201,3 +201,24 @@ console.log(oggetto.decrement)
 //   console.log("chiave:"+Object.keys(student))
 //   console.log("values:"+Object.values(student))
 //   console.log("entries:"+Object.entries(student))
+
+
+
+
+// -------------------------------------------popolamento array------------------------------
+
+let parol =[];
+for(let i=0 ; i<5 ; i++){
+
+let  parole= prompt("inserissi una parola")
+
+    parol.push(parole)
+}
+
+console.log(parol)
+
+for(let i=0 ;i< parol.length ; i++){
+    if(parol[i].length %2 !==0){
+ console.log(parol[i])
+    }
+}
