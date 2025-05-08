@@ -141,12 +141,12 @@ let somme = 0
 
 
 
-//  ---------------------iteration delle proprietà--------------------
+//  ---------------------iterazione delle proprietà--------------------
 
 
-//  for(nome in person){
-//     console.log(person.nome)
-//  }
+ for(let chiave in person){
+    console.log(chiave+":"+ person [chiave])
+ }
 
 //  function outerFunction(x,inizialValue){
 //     function innerFunction(y){
