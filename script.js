@@ -119,17 +119,30 @@ let somme = 0
 //     console.log(array[i])
 //  }
 
-//  const person={
-//     nome:"mbene",
-//     age:24,
-//     city:"borgonovo",
-//     job:"studiare"
-//  }
-//  let age = 30
-//  console.log(person)
-//  console.log(person.age)
-//  console.log(age)
-//  console.log(person.job)
+
+
+
+
+// ---------------------aggiungi una nuova proprietà----------------
+
+ const person={
+    nome:"mbene",
+    age:24,
+    city:"borgonovo",
+ }
+
+ person["job"]="studiare"
+
+
+ let age = 30
+ console.log(person.age)
+ console.log(age)
+ console.log(person)
+
+
+
+//  ---------------------iteration delle proprietà--------------------
+
 
 //  for(nome in person){
 //     console.log(person.nome)
