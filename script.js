@@ -259,3 +259,23 @@ console.log(squaredNumber)
 //      return item.grado < 60
 // })
 // console.log(student)
+
+
+
+
+// ---------------------------------------------- reduce & sort --------------------------------------
+
+const expense =[200,98,59,150,300]
+
+const suma= expense.reduce((accumulator,recent) =>{
+    return accumulator + recent;
+},0)
+
+const words =["banana","apple","chery","date"]
+
+words.sort((a,b) => {
+    return a.localeCompare (b)
+})
+
+console.log(suma)
+console.log(words)
