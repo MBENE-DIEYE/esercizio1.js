@@ -148,19 +148,23 @@ let somme = 0
     console.log(chiave+":"+ person [chiave])
  }
 
-//  function outerFunction(x,inizialValue){
-//     function innerFunction(y){
-//         let som=x+y;
-//         console.log(som)
-//         result=result+y
-//         console.log(result)
-//     }
-//     let result= inizialValue
 
-//     innerFunction(4)
+
+//  -----------------------------Functioni annidate---------------------------
+
+ function outerFunction(x,inizialValue){
+    function innerFunction(y){
+        let som=x+y;
+        console.log(som)
+        result=result+y
+        console.log(result)
+    }
+    let result= inizialValue
+
+    innerFunction(4)
    
-//  }
-//  outerFunction(2,7)
+ }
+ outerFunction(2,7)
 
 //   let student={
 //     nome:"mbene",
