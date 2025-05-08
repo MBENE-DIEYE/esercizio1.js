@@ -237,3 +237,24 @@ const squaredNumber = numbers.map((item) =>{
     item = item**2;
     console.log(item)
 })
+
+
+// ------------------------------- filter & find -------------------------------------
+
+const students =[
+    { nome:"sofia",grado:65},
+    {nome:"elisa",grado:34},
+    {nome:"rachid",grado:90},
+    {nome:"mada",grado:23}
+]
+
+const passedStudents= students.filter((item) =>{
+    return    item.grado >= 60;
+})
+
+console.log(passedStudents)
+
+  const student= students.find((item) =>{
+     return item.grado < 60
+})
+console.log(student)
