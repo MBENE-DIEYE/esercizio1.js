@@ -207,18 +207,33 @@ console.log(oggetto.decrement)
 
 // -------------------------------------------popolamento array------------------------------
 
-let parol =[];
-for(let i=0 ; i<5 ; i++){
+// let parol =[];
+// for(let i=0 ; i<5 ; i++){
 
-let  parole= prompt("inserissi una parola")
+// let  parole= prompt("inserissi una parola")
 
-    parol.push(parole)
-}
+//     parol.push(parole)
+// }
 
-console.log(parol)
+// console.log(parol)
 
-for(let i=0 ;i< parol.length ; i++){
-    if(parol[i].length %2 !==0){
- console.log(parol[i])
-    }
-}
+// for(let i=0 ;i< parol.length ; i++){
+//     if(parol[i].length %2 !==0){
+//  console.log(parol[i])
+//     }
+// }
+
+
+
+// --------------------------------------forEach & map-----------------------------------------
+
+const numbers = [1,2,3,4,5]
+numbers.forEach((item) => {
+    item = item*2;
+    console.log(item)
+})
+
+const squaredNumber = numbers.map((item) =>{
+    item = item**2;
+    console.log(item)
+})
