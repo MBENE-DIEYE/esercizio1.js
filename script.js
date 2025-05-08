@@ -190,17 +190,23 @@ console.log(oggetto.decrement)
  }
  creatCount()
 
+// --------------------------------------object.entries () ------------------------------
 
+  let student={
+    nome:"mbene",
+    age:"24",
+    grade:"ffef",
+    school:"frrcr"
+  }
 
-//   let student={
-//     nome:"mbene",
-//     age:"24",
-//     grade:"ffef",
-//     school:"frrcr"
-//   }
+const entries = Object.entries(student)
+
+for(const key in entries){
+    console.log( `${entries[key]}`)
+}
 //   console.log("chiave:"+Object.keys(student))
 //   console.log("values:"+Object.values(student))
-//   console.log("entries:"+Object.entries(student))
+ 
 
 
 
@@ -227,55 +233,55 @@ console.log(oggetto.decrement)
 
 // --------------------------------------forEach & map-----------------------------------------
 
-const numbers = [1,2,3,4,5]
-numbers.forEach((item) => {
-    item = item*2;
-    console.log(item)
-})
+// const numbers = [1,2,3,4,5]
+// numbers.forEach((item) => {
+//     item = item*2;
+//     console.log(item)
+// })
 
-const squaredNumber = numbers.map((item) =>{
-     return ` ${item**2}`;
+// const squaredNumber = numbers.map((item) =>{
+//      return ` ${item**2}`;
      
-})
-console.log(squaredNumber)
+// })
+// console.log(squaredNumber)
 
 
-// ------------------------------- filter & find -------------------------------------
+// // ------------------------------- filter & find -------------------------------------
 
-// const students =[
-//     { nome:"sofia",grado:65},
-//     {nome:"elisa",grado:34},
-//     {nome:"rachid",grado:90},
-//     {nome:"mada",grado:23}
-// ]
+// // const students =[
+// //     { nome:"sofia",grado:65},
+// //     {nome:"elisa",grado:34},
+// //     {nome:"rachid",grado:90},
+// //     {nome:"mada",grado:23}
+// // ]
 
-// const passedStudents= students.filter((item) =>{
-//     return    item.grado >= 60;
+// // const passedStudents= students.filter((item) =>{
+// //     return    item.grado >= 60;
+// // })
+
+// // console.log(passedStudents)
+
+// //   const student= students.find((item) =>{
+// //      return item.grado < 60
+// // })
+// // console.log(student)
+
+
+
+
+// // ---------------------------------------------- reduce & sort --------------------------------------
+
+// const expense =[200,98,59,150,300]
+
+// const suma= expense.reduce((accumulator,recent) =>{
+//     return accumulator + recent;
+// },0)
+
+// const words =["banana","apple","chery","date"]
+
+// words.sort((a,b) => {
+//     return a.localeCompare (b)
 // })
 
-// console.log(passedStudents)
-
-//   const student= students.find((item) =>{
-//      return item.grado < 60
-// })
-// console.log(student)
-
-
-
-
-// ---------------------------------------------- reduce & sort --------------------------------------
-
-const expense =[200,98,59,150,300]
-
-const suma= expense.reduce((accumulator,recent) =>{
-    return accumulator + recent;
-},0)
-
-const words =["banana","apple","chery","date"]
-
-words.sort((a,b) => {
-    return a.localeCompare (b)
-})
-
-console.log(suma)
-console.log(words)
+// console.log(suma)
+// console.log(words)
