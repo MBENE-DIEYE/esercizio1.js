@@ -234,27 +234,28 @@ numbers.forEach((item) => {
 })
 
 const squaredNumber = numbers.map((item) =>{
-    item = item**2;
-    console.log(item)
+     return ` ${item**2}`;
+     
 })
+console.log(squaredNumber)
 
 
 // ------------------------------- filter & find -------------------------------------
 
-const students =[
-    { nome:"sofia",grado:65},
-    {nome:"elisa",grado:34},
-    {nome:"rachid",grado:90},
-    {nome:"mada",grado:23}
-]
+// const students =[
+//     { nome:"sofia",grado:65},
+//     {nome:"elisa",grado:34},
+//     {nome:"rachid",grado:90},
+//     {nome:"mada",grado:23}
+// ]
 
-const passedStudents= students.filter((item) =>{
-    return    item.grado >= 60;
-})
+// const passedStudents= students.filter((item) =>{
+//     return    item.grado >= 60;
+// })
 
-console.log(passedStudents)
+// console.log(passedStudents)
 
-  const student= students.find((item) =>{
-     return item.grado < 60
-})
-console.log(student)
+//   const student= students.find((item) =>{
+//      return item.grado < 60
+// })
+// console.log(student)
