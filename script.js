@@ -102,14 +102,18 @@ let score=78;
     default: console.log("vuoto insufficiente");    
 }
 
-//  let array =[1,2,3,4,5,6]
-//  console.log(array)
-// let somme=0
-//  for(i=0;i<=array.length;i++){
 
-//     somme= somme +array[i]
-//  }
-//  console.log(somme)
+
+// ------------------somma i numeri-------------
+
+ let array =[1,2,3,4,5,6]
+ console.log(array)
+let somme = 0
+ for(let i=0 ; i < array.length ; i++){
+
+    somme = somme +array[i]
+ }
+ console.log(somme)
 
 //  for(i=array.length-1 ;i>=0;i--){
 //     console.log(array[i])
