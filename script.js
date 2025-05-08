@@ -67,7 +67,7 @@ else{
 }
 
 
-let score= "";
+// let score= "";
 
 // score=parseInt( prompt("voici la note"));
 
@@ -85,74 +85,72 @@ let score= "";
 //  }
 
 
- switch(score){
-    case 1: {
-        (score>=90 && score<=100)
-        console.log("vuoto ottimo");
-     }
+
+// ------------------verifica il punteggio----------------
+
+let score=78;
+ switch(true){
+    case (score>=90 && score<=100):
+            console.log("vuoto ottimo");
     break;
-    case 2:{
-        (score>=70 && score<=89)
+    case (score>=70 && score<=89):
         console.log("vuoto buono");
-    }
     break;
-    case 3: {
-        (score>=60 && score<=69)
+    case (score>=60 && score<=69): 
         console.log("vuoto sufficiente");
-     }
     break;
     default: console.log("vuoto insufficiente");    
- }
+}
 
- let array =[1,2,3,4,5,6]
- console.log(array)
-let somme=0
- for(i=0;i<=array.length;i++){
+//  let array =[1,2,3,4,5,6]
+//  console.log(array)
+// let somme=0
+//  for(i=0;i<=array.length;i++){
 
-    somme= somme +array[i]
- }
- console.log(somme)
+//     somme= somme +array[i]
+//  }
+//  console.log(somme)
 
- for(i=array.length-1 ;i>=0;i--){
-    console.log(array[i])
- }
+//  for(i=array.length-1 ;i>=0;i--){
+//     console.log(array[i])
+//  }
 
- const person={
-    nome:"mbene",
-    age:24,
-    city:"borgonovo",
-    job:"studiare"
- }
- let age = 30
- console.log(person)
- console.log(person.age)
- console.log(age)
- console.log(person.job)
+//  const person={
+//     nome:"mbene",
+//     age:24,
+//     city:"borgonovo",
+//     job:"studiare"
+//  }
+//  let age = 30
+//  console.log(person)
+//  console.log(person.age)
+//  console.log(age)
+//  console.log(person.job)
 
- for(nome in person){
-    console.log(person.nome)
- }
+//  for(nome in person){
+//     console.log(person.nome)
+//  }
 
- function outerFunction(x,inizialValue){
-    function innerFunction(y){
-        let som=x+y;
-        console.log(som)
-        result=result+y
-        console.log(result)
-    }
-    let result= inizialValue
+//  function outerFunction(x,inizialValue){
+//     function innerFunction(y){
+//         let som=x+y;
+//         console.log(som)
+//         result=result+y
+//         console.log(result)
+//     }
+//     let result= inizialValue
 
-    innerFunction(4)
+//     innerFunction(4)
    
- }
- outerFunction(2,7)
+//  }
+//  outerFunction(2,7)
 
-  let student={
-    nome:"mbene",
-    age:"24",
-    grade:"ffef",
-    school:"frrcr"
-  }
-  console.log("chiave:"+Object.keys(student))
-  console.log("values:"+Object.values(student))
-  console.log("entries:"+Object.entries(student))
+//   let student={
+//     nome:"mbene",
+//     age:"24",
+//     grade:"ffef",
+//     school:"frrcr"
+//   }
+//   console.log("chiave:"+Object.keys(student))
+//   console.log("values:"+Object.values(student))
+//   console.log("entries:"+Object.entries(student))
