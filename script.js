@@ -152,19 +152,45 @@ let somme = 0
 
 //  -----------------------------Functioni annidate---------------------------
 
- function outerFunction(x,inizialValue){
-    function innerFunction(y){
-        let som=x+y;
-        console.log(som)
-        result=result+y
-        console.log(result)
-    }
-    let result= inizialValue
+//  function outerFunction(x){
+//     function innerFunction(y){
+//         let som=x+y;
+//         console.log(som)
+//     }
+//     innerFunction(4)
+//  }
+//  outerFunction(2)
 
-    innerFunction(4)
-   
+// --------------------persistenza delle variabili locali ---------------
+
+//  function outerFunction(x,inizialValue){
+//     let result= inizialValue
+//     function innerFunction(y){
+//         result=result+y
+    
+//  }
+//  }
+//  innerFunction()
+//  outerFunction(3,7)
+
+
+// ------------------------counter-------------------------------------------
+
+ function creatCount(){
+    let count= 5;
+    const oggetto={
+        increment:"",
+        decrement:""
+    }
+  oggetto.increment= count+1
+  oggetto.decrement= count-1
+
+console.log(oggetto.increment)
+console.log(oggetto.decrement)
  }
- outerFunction(2,7)
+ creatCount()
+
+
 
 //   let student={
 //     nome:"mbene",
