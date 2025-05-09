@@ -163,15 +163,18 @@ let somme = 0
 
 // --------------------persistenza delle variabili locali ---------------
 
-//  function outerFunction(x,inizialValue){
-//     let result= inizialValue
-//     function innerFunction(y){
-//         result=result+y
+ function outerFunction(x,inizialValue){
+    let result= inizialValue
+    function innerFunction(y){
+        result= result+y+x
+        console.log(result)
     
-//  }
-//  }
-//  innerFunction()
-//  outerFunction(3,7)
+ }
+ 
+ return innerFunction(2)
+ }
+
+ outerFunction(7,4)
 
 
 // ------------------------counter-------------------------------------------
