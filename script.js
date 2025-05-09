@@ -176,34 +176,39 @@ let somme = 0
 
 // ------------------------counter-------------------------------------------
 
- function creatCount(){
-    let count= 5;
-    const oggetto={
-        increment:"",
-        decrement:""
+  
+   function createCounter() {
+    let count = 2
+ const mnObjet ={
+        increment: () => {
+            
+             return count+1
+        },
+        decrement: () =>{
+             return count-1
+        }
     }
-  oggetto.increment= count+1
-  oggetto.decrement= count-1
+    console.log(mnObjet.increment())
+    console.log(mnObjet.decrement())
+} 
 
-console.log(oggetto.increment)
-console.log(oggetto.decrement)
- }
- creatCount()
+ 
+ createCounter()
 
 // --------------------------------------object.entries () ------------------------------
 
-  let student={
-    nome:"mbene",
-    age:"24",
-    grade:"ffef",
-    school:"frrcr"
-  }
+//   let student={
+//     nome:"mbene",
+//     age:"24",
+//     grade:"ffef",
+//     school:"frrcr"
+//   }
 
-const entries = Object.entries(student)
+// const entries = Object.entries(student)
 
-for(const key in entries){
-    console.log( `${entries[key]}`)
-}
+// for(const key in entries){
+//     console.log( `${entries[key]}`)
+// }
 //   console.log("chiave:"+Object.keys(student))
 //   console.log("values:"+Object.values(student))
  
